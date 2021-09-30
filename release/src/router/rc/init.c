@@ -2789,10 +2789,10 @@ int init_nvram(void)
 		nvram_set("lan_ifname", "br0");
 		set_basic_ifname_vars("vlan2", "vlan1", "ra0", "rai0", "usb", "vlan1", NULL, "vlan3", NULL, 0);
 
-		nvram_set_int("btn_rst_gpio",  1|GPIO_ACTIVE_LOW);
+		nvram_set_int("btn_rst_gpio", 30|GPIO_ACTIVE_LOW);
 		nvram_set_int("btn_wps_gpio",  2|GPIO_ACTIVE_LOW);
-		nvram_set_int("led_usb_gpio", 14|GPIO_ACTIVE_LOW);
-		nvram_set_int("led_pwr_gpio",  9|GPIO_ACTIVE_LOW);
+		nvram_set_int("led_usb_gpio", 65|GPIO_ACTIVE_LOW);
+		nvram_set_int("led_pwr_gpio", 24|GPIO_ACTIVE_LOW);
 		nvram_set_int("led_wps_gpio",  9|GPIO_ACTIVE_LOW);
 //		nvram_set_int("led_2g_gpio", 72|GPIO_ACTIVE_LOW);
 		nvram_set_int("led_all_gpio", 10|GPIO_ACTIVE_LOW);

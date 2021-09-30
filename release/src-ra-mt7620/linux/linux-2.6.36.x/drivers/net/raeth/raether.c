@@ -220,7 +220,7 @@ static char *port_mapping[6] = {
 #if defined(RTAC1200HP)
 	"1", "2", "3", "4", "x", "" /* RT-AC1200HP, P0P1P2P3P4P5 map to LAN/WAP port*/ 
 #else	
-	"", "1", "2", "3", "4", "x" /* RT-N54U & RT-AC54U*/ 
+	"", "2", "1", "3", "4", "x" /* RT-N54U & RT-AC54U*/ 
 #endif	
 #else
 #if defined(CONFIG_RT2880_DRAM_64M)

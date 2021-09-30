@@ -54,11 +54,11 @@ enum {
 #if defined(RTN14U) || defined(RTAC51U) ||defined(RTN54U) || defined(RTAC54U)
 /// RT-N14U mapping
 enum {
-	WAN_PORT=0,
+	WAN_PORT=4,
 	LAN1_PORT=1,
-	LAN2_PORT=2,
-	LAN3_PORT=3,
-	LAN4_PORT=4,
+	LAN2_PORT=0,
+	LAN3_PORT=2,
+	LAN4_PORT=3,
 	P5_PORT=5,
 	CPU_PORT=6,
 	P7_PORT=7,
