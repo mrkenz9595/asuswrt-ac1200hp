@@ -12,7 +12,7 @@ on:
 env:
   REPO_URL: https://github.com/mrkenz9595/asuswrt-ac1200hp.git
   REPO_BRANCH: master
-  DEVICE_NAME: rt-n54u
+  DEVICE_NAME: rt-ac1200hp
   TZ: Asia/Ho_Chi_Minh
 
 jobs:
