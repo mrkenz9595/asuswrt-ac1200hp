@@ -1,9 +1,0 @@
-menu "ASUS NVRAM"
-
-config	ASUS_NVRAM_API
-	tristate "ASUS NVRAM R/W API"
-	default m
-	---help---
-	ASUS NVRAM R/W API
-
-endmenu
