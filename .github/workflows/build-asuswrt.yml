@@ -12,7 +12,7 @@ on:
 env:
   REPO_URL: https://github.com/lukasz1992/asuswrt-xiaomi.git
   REPO_BRANCH: master
-  DEVICE_NAME: rt-ac1200hp
+  DEVICE_NAME: rt-n54u
   TZ: Asia/Ho_Chi_Minh
 
 jobs:
